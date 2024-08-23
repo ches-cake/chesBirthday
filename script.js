@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", function () {
         let average = sum / bufferLength;
   
          if (window.innerWidth <= 768) {
-        return average > 3;
+        return average > 5;
     } else {
         return average > 125;
     }
