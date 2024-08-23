@@ -71,7 +71,11 @@ document.addEventListener("DOMContentLoaded", function () {
         }
         let average = sum / bufferLength;
   
-        return average > 30;
+         if (window.innerWidth <= 768) {
+        return average > 5;
+    } else {
+        return average > 125;
+    }
     }
   
     function blowOutCandle() {
