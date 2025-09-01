@@ -15,7 +15,6 @@ document.addEventListener("DOMContentLoaded", function () {
     var soul = confetti.shapeFromText({ text: 'I want a perfect soul', scalar});
     var runnin = confetti.shapeFromText({ text: "She's runnin' out again", scalar});
     var doin = confetti.shapeFromText({ text: "What the hell am I doin' here?", scalar});
-    var kate = confetti.shapeFromText({ text: "I'M REALLY SORRY, TIMS", scalar});
 
     const firstSong = document.getElementById('favoriteSong'); // First song element
     const secondSong = document.getElementById('secondSong'); 
